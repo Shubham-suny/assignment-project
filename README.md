@@ -6,9 +6,9 @@
 
 ANS:
 
-myList=[10,30,50,40]                OR         myList=[10,30,50,40]
-                                               total=sum(myList)  
-total=0                                        print("sum of all elements:",total)    
+myList=[10,30,50,40]                         
+                                                 
+total=0                                           
 
 for i in range(0,len(myList)):
     total=total+myList[i]
@@ -60,8 +60,7 @@ for i in range(0,n):
     else:
         count+=1
         result=max(result,count)                                
-        
-    
+	
 print(result)        
 
 
@@ -73,20 +72,20 @@ DATABASE STRUCTURE:
         
         USER
 
-Srno	 Username	  Password
+Srno	    Username	  Password
 1	     Shubhk1	   Xyza
 2	     Prafugs2	   Cvbhy
 3	     Pallbyu3	   Dftrb
-4	     Labst4	     Bhtrsa
-5	     Taken5	     Jatrsd
+4	     Labst4	   Bhtrsa
+5	     Taken5	   Jatrsd
 
 	                              ADDRESS
 SrNo	      Street	      Pincode	   Country	    State	       Phone No
-1	        Banglore road	   560069	    India	    Karnataka	     6693214587
-1	         Wax wagon	     895448	      US	    Kalifornia	   4425151566
-2	         Nanded road	   431513	    India	    Maharashtra	   9921359172
-3	         Jammu road	     469878	    India	    Hariyana	     8975412356
-5	        Jalandhar road	 897547	    India	    Panjab	       9874561235
+1	      Banglore road   560069	    India	    Karnataka	       6693214587
+1	      Wax wagon	      895448          US            Kalifornia	       4425151566
+2	      Nanded road     431513	    India	    Maharashtra	       9921359172
+3	      Jammu road      469875        India           Hariyana           8975412356
+5	      Jalandhar road  897547	    India	    Panjab	       9874561235
 
 After Creating tables:
  JOIN two table:
